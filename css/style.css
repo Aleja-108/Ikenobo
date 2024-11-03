@@ -113,13 +113,21 @@ p {
     margin: auto;
     text-align: center;
     padding: 20px; 
+    transition: all 0.3s ease-out;
 }
 
 .card img {
     width: 100%;
     height: 300px;
     object-fit: cover;
+
+    transition: transform 0.3s ease;
 }
+
+.card img:hover {
+    transform: scale(1.45); /* no funciona!!!*/
+}
+
 
 .card-icons {
     display: flex;
@@ -128,7 +136,14 @@ p {
     color: #e53e3e;
     font-size: 1.5rem;
     margin-top: 10px; 
+    transition: color 0.3s ease;
+    cursor: pointer; 
 }
+
+.card-icons:hover {
+    color: #000; 
+}
+
 
 /* MQ tablets */
 @media (max-width: 900px) {
@@ -162,16 +177,16 @@ p {
 }
 
 /* Video cursos */
-/* Video cursos */ 
+
 .workshop-section {
     background-color: #e53e3e;
-    color: #fff; /* Color para el texto en toda la sección */
+    color: #fff; 
     text-align: center;
 }
 
-/* Hacer que el párrafo en la sección de workshops sea blanco */
+
 .workshop-section .txt-body {
-    color: #fff; /* Color blanco para el texto del párrafo */
+    color: #fff; 
 }
 
 .centered-video .workshop-video {
@@ -218,12 +233,12 @@ p {
     background-color: #333;
     padding: 20px;
     text-align: center;
-    color: #fff; /* Color para todo el texto en el footer */
+    color: #fff; 
 }
 
-/* Hacer que el texto del párrafo en el footer sea blanco */
+
 .footer p {
-    color: #fff; /* Color blanco para el texto del párrafo */
+    color: #fff; 
 }
 
 .footer-icons a {
