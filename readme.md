@@ -1,6 +1,6 @@
 # Ikenobo - El Arte del Ikebana 🌸
 
-(imgs/ikenobo03.png) 
+(./imgs/ikenobo03.png) 
 
 Bienvenido a **Ikenobo**, un espacio dedicado al arte del ikebana, la tradicional forma de arreglos florales japonesa que enfatiza la belleza de la naturaleza y la simplicidad.
 
