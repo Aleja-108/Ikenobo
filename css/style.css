@@ -15,6 +15,10 @@
 /* Encabezado */
 .header {
     background-color: #e53e3e;
+    /*chequear el pattern!!!!
+    background-image: url(../imgs/fondo_video.jpg)????;
+    background-size: cover;
+    background-repeat: no-repeat;*/
 }
 
 .header_nav {
@@ -125,7 +129,7 @@ p {
 }
 
 .card img:hover {
-    transform: scale(1.45); /* no funciona!!!*/
+    transform: scale(1.45); /* no funciona!????*/
 }
 
 
@@ -141,7 +145,7 @@ p {
 }
 
 .card-icons:hover {
-    color: #000; 
+    color: #460000; 
 }
 
 
@@ -182,6 +186,12 @@ p {
     background-color: #e53e3e;
     color: #fff; 
     text-align: center;
+    
+/*chequear el pattern!!!!*/
+    background-image: url(../imgs/fondo_video.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
 }
 
 
@@ -230,7 +240,7 @@ p {
 
 /* Footer */
 .footer {
-    background-color: #333;
+    background-color: #460000;
     padding: 20px;
     text-align: center;
     color: #fff; 
