@@ -15,10 +15,10 @@
 /* Encabezado */
 .header {
     background-color: #e53e3e;
-    /*chequear el pattern!!!!
-    background-image: url(../imgs/fondo_video.jpg)????;
+    /*chequear el pattern!!!!*/
+    background-image: url(../imgs/fondo_foot.jpg);
     background-size: cover;
-    background-repeat: no-repeat;*/
+    background-repeat: no-repeat;
 }
 
 .header_nav {
@@ -244,6 +244,10 @@ p {
     padding: 20px;
     text-align: center;
     color: #fff; 
+    background-image: url(../imgs/fondo_foot.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
 }
 
 
