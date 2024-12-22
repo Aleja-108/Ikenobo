@@ -12,7 +12,7 @@ Ikenobō (池坊) es la mayor y más antigua escuela en Japón de ikebana o arre
 
 - **PRODUCTOS**: Arreglos de ikebana a la venta.
 - **CARRITO**: Con Js.
-- **wORKSHOP**:principios básicos del ikebana (video).
+- **WORKSHOP**: principios básicos del ikebana (video).
 - **Contacto**: Con el form de Formspree.
 
 
