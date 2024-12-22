@@ -131,7 +131,7 @@ function irPagar(){
 
     } else {
 
-        window.location.href = "./pagos.html";
+        window.location.href = "../pages/pagos.html";
     }
 }
 
