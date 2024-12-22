@@ -131,7 +131,7 @@ function irPagar(){
 
     } else {
 
-        window.location.href = "https://aleja-108.github.io/Ikenobo/pages/pagos.html";
+        window.location.href = "pages/pagos.html";
     }
 }
 
