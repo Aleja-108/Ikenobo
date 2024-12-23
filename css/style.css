@@ -155,6 +155,21 @@ p {
 }
 
 /* Welcome  */
+.container_welcome-area {
+    display: flex;
+    flex-wrap: nowrap; 
+    gap: 20px;
+    width: 100%;
+    max-width: 1500px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);*/
+    padding: 20px;
+    margin: 40px auto;
+    align-items: center;
+    box-sizing: border-box;
+}
+
 .container_welcome-area p:first-of-type {
     font-size: 1.2rem; 
 }
@@ -166,23 +181,62 @@ p {
 
 .welcome-card {
     display: flex;
-    gap: 20px;
+    justify-content: center;
+   
     align-items: center;
  
-    border-radius: 8px;
+    /*border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
     background-color: #fdfdfd;
     flex-wrap: wrap;
+    gap: 20px;*/
+    justify-content: space-between;
+    flex: 1 1 50%; /* el 50% del espcio */
 }
 
 .welcome-img {
-    max-width: 600px;
+    max-width: 100%;
+    height: auto;
     border-radius: 10px;
 }
 
 .welcome-text {
-    flex: 1;
+    flex: 1 1 80%;
+    padding: 20px;
+}
+
+/* MQ tablets */
+@media (max-width: 900px) {
+    .container_welcome-area {
+        flex-direction: column; /* Apila la imagen y el texto en columna */
+        gap: 20px;  /* Espacio entre la imagen y el texto */
+    }
+
+    .welcome-card, .welcome-text {
+        flex: 1 1 100%; /* Ambos ocupan el 100% del ancho */
+    }
+
+    .welcome-img {
+        max-width: 90%; /* Ajusta la imagen al 90% del contenedor en móviles */
+        margin: 0 auto; /* Centra la imagen en pantallas pequeñas */
+    }
+}
+/* MQ Celulares */
+@media (max-width: 600px) {
+    .container_welcome-area {
+        flex-direction: column; /* Apila la imagen y el texto en columna */
+        gap: 20px;  /* Espacio entre la imagen y el texto */
+    }
+
+    .welcome-card, .welcome-text {
+        flex: 1 1 100%; /* Ambos ocupan el 100% del ancho */
+    }
+
+    .welcome-img {
+        max-width: 90%; /* Ajusta la imagen al 90% del contenedor en móviles */
+        margin: 0 auto; /* Centra la imagen en pantallas pequeñas */
+    }
 }
 
 /* Cards */
